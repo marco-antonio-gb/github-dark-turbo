@@ -1,8 +1,8 @@
 {
-    "name": "github-dark-turbo",
-    "displayName": "GitHub Dark Turbo",
+    "name": "github-dark-turbo-v2",
+    "displayName": "GitHub Dark Turbo v2",
     "description": "A fork of the GitHub Theme's dark mode, with colour tweaks aimed at improved focus.",
-    "version": "0.6.1",
+    "version": "1.0.0",
     "preview": true,
     "publisher": "DubeSoftware",
     "license": "MIT",
@@ -31,10 +31,17 @@
                 "uiTheme": "vs-dark",
                 "path": "./themes/GitHub Dark Turbo-color-theme.json"
             }
-        ]
+        ],
+        "iconThemes": [
+            {
+              "id": "github-dark-turbo-icons-vscode",
+              "label": "GitHub Dark Turbo Icons",
+              "path": "./fileicons/github-icon-theme.json"
+            }
+          ]
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/dubesoftware/github-dark-turbo.git"
+        "url": "https://github.com/marco-antonio-gb/github-dark-turbo"
     }
 }
