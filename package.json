@@ -1,47 +1,61 @@
 {
-    "name": "github-dark-turbo-v2",
-    "displayName": "GitHub Dark Turbo v2",
-    "description": "A fork of the GitHub Theme's dark mode, with colour tweaks aimed at improved focus.",
-    "version": "1.0.0",
-    "preview": true,
-    "publisher": "DubeSoftware",
-    "license": "MIT",
-    "icon": "icon.png",
-    "galleryBanner": {
-        "color": "#161a1d",
-        "theme": "dark"
-    },
-    "engines": {
-        "vscode": "^1.48.0"
-    },
-    "categories": [
-        "Themes"
+  "name": "github-dark-turbo-v2",
+  "displayName": "GitHub Dark Turbo v2",
+  "description": "A fork of the GitHub Theme's V2 dark mode, with colour tweaks aimed at improved focus.",
+  "version": "1.1.2",
+  "publisher": "MetalHead",
+  "license": "MIT",
+  "icon": "github_icon.png",
+  "galleryBanner": {
+    "color": "#161a1d",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.48.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "github",
+    "githubdark",
+    "githubdarkturbo",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GitHub Dark TurboV2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/github-dark-turbov2-theme.json",
+        "_watch": true
+      }
     ],
-    "keywords": [
-        "theme",
-        "github",
-        "githubdark",
-        "githubdarkturbo",
-        "dark"
+    "iconThemes": [
+      {
+        "id": "jetbrains-icons-vscode",
+        "label": "JetBrains Icons",
+        "path": "./icons/jetbrains-icons/theme-dark.json",
+        "_watch": true
+      },
+      {
+        "id": "github-dark-turbov2-icons-vscode",
+        "label": "GitHub Dark TurboV2 Icons",
+        "path": "./icons/github-icons/theme-dark.json",
+        "_watch": true
+      }
     ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "GitHub Dark Turbo",
-                "uiTheme": "vs-dark",
-                "path": "./themes/GitHub Dark Turbo-color-theme.json"
-            }
-        ],
-        "iconThemes": [
-            {
-              "id": "github-dark-turbo-icons-vscode",
-              "label": "GitHub Dark Turbo Icons",
-              "path": "./fileicons/github-icon-theme.json"
-            }
-          ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/marco-antonio-gb/github-dark-turbo"
-    }
+    "productIconThemes": [
+      {
+        "id": "github-dark-turbov2-product-icons",
+        "label": "Gihub Dark Turbo Product Icons",
+        "path": "./product/fluent-icons.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marco-antonio-gb/github-dark-turbo"
+  }
 }

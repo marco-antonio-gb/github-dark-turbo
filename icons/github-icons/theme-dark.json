@@ -19,6 +19,8 @@
       "iconPath": "./icons/file-directory-open-fill-light.svg"
     }
   },
+  "hidesExplorerArrows": true,
+  "languageIds": {},
   "file": "_file_dark",
   "folder": "_folder_dark",
   "folderExpanded": "_folder_open_dark",

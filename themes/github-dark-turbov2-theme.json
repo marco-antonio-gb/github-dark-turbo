@@ -1,5 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
+  "name": "github-dark-turbov2-theme",
   "type": "dark",
   "colors": {
     "activityBar.activeBorder": "#f9826c",
@@ -53,7 +54,7 @@
     "editorGutter.addedBackground": "#28a745",
     "editorGutter.deletedBackground": "#ea4a5a",
     "editorGutter.modifiedBackground": "#2188ff",
-    "editorIndentGuide.activeBackground1": "#444d56",
+    "editorIndentGuide.activeBackground1": "#1e1f1800",
     "editorIndentGuide.background1": "#2f363d",
     "editorLineNumber.activeForeground": "#e1e4e8",
     "editorLineNumber.foreground": "#2f363d",
@@ -127,14 +128,14 @@
     "statusBar.foreground": "#4f5963",
     "statusBar.noFolderBackground": "#181c1f",
     "statusBarItem.prominentBackground": "#282e34",
-    "tab.activeBackground": "#181c1f",
-    "tab.activeBorder": "#181c1f",
-    "tab.activeBorderTop": "#f9826c",
+    "tab.activeBackground": "#4f596343",
+    "tab.activeBorder": "#f9826c",
+    "tab.activeBorderTop": "#181c1f",
     "tab.activeForeground": "#e1e4e8",
     "tab.border": "#4f596323",
     "tab.hoverBackground": "#181c1f",
     "tab.inactiveBackground": "#181c1f",
-    "tab.inactiveForeground": "#4f5963",
+    "tab.inactiveForeground": "#6c7680",
     "tab.unfocusedActiveBorder": "#181c1f",
     "tab.unfocusedActiveBorderTop": "#4f596323",
     "tab.unfocusedHoverBackground": "#181c1f",
@@ -151,19 +152,19 @@
     "titleBar.border": "#4f596323",
     "titleBar.inactiveBackground": "#181c1f",
     "titleBar.inactiveForeground": "#4f5963",
-    "tree.indentGuidesStroke": "#2f363d",
-	"editorBracketHighlight.foreground1": "#2188ff6b",
-	"editorBracketHighlight.foreground2": "#2188ff6b",
-	"editorBracketHighlight.foreground3": "#2188ff6b",
-	"editorBracketHighlight.foreground4": "#2188ff6b",
-	"editorBracketHighlight.foreground5": "#2188ff6b",
-	"editorBracketHighlight.foreground6": "#2188ff6b",
-	"editorBracketHighlight.unexpectedBracket.foreground": "#eba0ac",
-	"menu.background": "#24292e",
-	"menu.foreground": "#9fa3a7",
-	"menu.selectionBackground": "#383f46",
-	"menu.selectionForeground": "#e1e4e8",
-	"menu.separatorBackground": "#383f46",
+    "tree.indentGuidesStroke": "#2f363d00",
+    "editorBracketHighlight.foreground1": "#e1e4e8cc",
+    "editorBracketHighlight.foreground2": "#e1e4e8cc",
+    "editorBracketHighlight.foreground3": "#e1e4e8cc",
+    "editorBracketHighlight.foreground4": "#e1e4e8cc",
+    "editorBracketHighlight.foreground5": "#e1e4e8cc",
+    "editorBracketHighlight.foreground6": "#e1e4e8cc",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#eba0ac",
+    "menu.background": "#24292e",
+    "menu.foreground": "#9fa3a7",
+    "menu.selectionBackground": "#383f46",
+    "menu.selectionForeground": "#e1e4e8",
+    "menu.separatorBackground": "#383f46",
     //"activityBar.dropBorder": "#e1e4e8",
     //"breadcrumb.background": "#181c1f",
     //"button.secondaryBackground": "#3a3d41",
@@ -426,9 +427,10 @@
     "terminal.ansiWhite": "#e5e5e5",
     "terminal.ansiYellow": "#e5e510",
     "terminal.border": "#4f596323",
-    "terminal.selectionBackground": "#ffffff40",
+    "terminal.selectionBackground": "#ffffff40"
     //"widget.shadow": "#000000"
   },
+
   "tokenColors": [
     {
       "scope": ["comment", "punctuation.definition.comment", "string.comment"],
@@ -553,7 +555,7 @@
       "scope": "carriage-return",
       "settings": {
         "foreground": "#24292E",
-        
+
         "fontStyle": "italic underline"
       }
     },
@@ -663,8 +665,7 @@
         "punctuation.definition.deleted"
       ],
       "settings": {
-        "foreground": "#FDAEB7",
-        "background": "#86181D"
+        "foreground": "#FDAEB7"
       }
     },
     {
@@ -674,22 +675,19 @@
         "punctuation.definition.inserted"
       ],
       "settings": {
-        "foreground": "#85E89D",
-        "background": "#144620"
+        "foreground": "#85E89D"
       }
     },
     {
       "scope": ["markup.changed", "punctuation.definition.changed"],
       "settings": {
-        "foreground": "#FFAB70",
-        "background": "#C24E00"
+        "foreground": "#FFAB70"
       }
     },
     {
       "scope": ["markup.ignored", "markup.untracked"],
       "settings": {
-        "foreground": "#2F363D",
-        "background": "#79B8FF"
+        "foreground": "#2F363D"
       }
     },
     {
